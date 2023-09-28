@@ -14,7 +14,7 @@ function createTable() {
 			let cell = document.createElement("td");
 		    
 		    rowcell.appendChild(cell);   
-			cell.textContent="Row-i Column-j";
+			cell.innerHTML="Row-"+i+" "+"Column-"+j;
 		    }
 		table.appendChild(rowcell);
 	}
